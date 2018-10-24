@@ -39,7 +39,7 @@ namespace Week9SerializationTests
             bi.Serialize(savePath + "BinarySerializer.bin", person);
             Person oldPerson = bi.Deserialize<Person>(savePath + "BinarySerializer.bin");
             Assert.AreEqual(person.FirstName, oldPerson.FirstName);
-            //Assert.AreEqual(person.LastName, oldPerson.LastName);
+            Assert.AreEqual(person.LastName, oldPerson.LastName);
             
         }
         [TestMethod]
