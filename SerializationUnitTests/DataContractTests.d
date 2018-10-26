@@ -1,0 +1,1 @@
+<Student xmlns="http://schemas.datacontract.org/2004/07/Serialization_Examples.Models" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"><Birthday>2018-10-23T22:35:29.405765-06:00</Birthday><FirstName>Jon</FirstName><LastName>Bolkema</LastName><SSN i:nil="true"/><StudentID>0488615</StudentID></Student>
