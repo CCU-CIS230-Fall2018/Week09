@@ -1,0 +1,15 @@
+Create your own Visual Studio solution containing a Class Library project and a Test project
+Name the solution and projects something obvious (ex: Week9Serialization, Week9SerializationTests)
+The Class Library should have:
+An ISerializer interface that defines two methods: Serialize and Deserialize
+Use appropriate method signatures in each case
+Three serialization classes - One class for each of the following serializers:
+BinaryFormatter, DataContractSerializer, Newtonsoft JSON.NET JsonSerializer (include via NuGet)
+All 3 classes should implement the custom ISerializer interface
+A hierarchy of at least 3 “functional” classes that can be serialized
+Like Animal, Dog, and Cat, but choose your own classes.
+A class that inherits from List<T> that can contain any of the 3 functional classes
+The Test project should have:
+At least three test classes – One class for each of the above serialization classes.
+At least one test method in each test class that serializes and deserializes an object graph using the above functional classes and list
+Use CompareNETObjects to verify the objects are equal after deserialization (include via NuGet)
